@@ -86,8 +86,9 @@ body {
 .line {
     background-color: white;
     padding-top: 2px;
-    width: 300px;
+    width: 6rem;
     margin-bottom: 8vh;
+    margin-top: 15px;
 }
 
 .line1 {
