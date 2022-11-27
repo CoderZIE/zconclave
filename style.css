@@ -153,7 +153,9 @@ body {
 }
 
 .speakerInfo {
-    width: 40vw;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 60vw;
     color: white;
     display: flex;
     align-items: flex-end;
