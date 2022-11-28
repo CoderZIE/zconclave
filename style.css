@@ -8,6 +8,11 @@
     src: url(./Proxima\ Nova\ Font.otf);
 }
 
+@font-face {
+    font-family: "Proxima_bold";
+    src: url(./FontsFree.otf);
+}
+
 
 * {
     margin: 0;
@@ -219,8 +224,9 @@ body {
 }
 
 .name {
+    font-family: Proxima_bold;
     font-size: 32px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .post {
@@ -234,8 +240,8 @@ body {
 }
 
 .topic span {
-    font-weight: 600;
-
+    font-family: Proxima_bold;
+    color: #e91d7d;
 }
 
 .youTubeButton {
